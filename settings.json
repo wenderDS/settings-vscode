@@ -1,0 +1,78 @@
+{
+  // Define o tema do VSCode
+  "workbench.colorTheme": "Dracula",
+
+  // Define o padão da fonte do editor
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 16,
+  "editor.lineHeight": 24,
+  "editor.tabSize": 2,
+
+  // Define o tema dos icones na sidebar
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "newUntitledFile",
+
+  //
+  "vetur.validation.template": false,
+
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    {
+      "language": "vue",
+      "autoFix": true
+    },
+    {
+      "language": "html",
+      "autoFix": true
+    },
+    {
+      "language": "javascript",
+      "autoFix": true
+    },
+    {
+      "language": "typescript",
+      "autoFix": true
+    },
+    {
+      "language": "typescriptreact",
+      "autoFix": true
+    }
+  ],
+
+  "explorer.compactFolders": false,
+  "editor.renderLineHighlight": "gutter",
+  "workbench.editor.labelFormat": "short",
+  "extensions.ignoreRecommendations": true,
+
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+
+  "breadcrumbs.enabled": true,
+  "editor.parameterHints.enabled": true,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+
+  "editor.rulers": [80, 120],
+
+  // "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+
+  "terminal.external.windowsExec": "C:\\cmder\\Cmder.exe",
+  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+  "terminal.integrated.shellArgs.windows": [
+    "/k",
+    "C:\\cmder\\vendor\\init.bat"
+  ],
+  "terminal.integrated.fontFamily": "Fira Code",
+
+  "liveServer.settings.donotShowInfoMsg": true
+}
